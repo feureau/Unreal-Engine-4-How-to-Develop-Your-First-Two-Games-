@@ -1,0 +1,9 @@
+{
+	"typescript.tsc.autoDetect": "off",
+	"files.exclude": {
+		"D:/Github/Unreal-Engine-4-How-to-Develop-Your-First-Two-Games-/Arch_Viz/.vscode": true,
+		"D:/Github/Unreal-Engine-4-How-to-Develop-Your-First-Two-Games-/Arch_Viz/Content": true,
+		"D:/Github/Unreal-Engine-4-How-to-Develop-Your-First-Two-Games-/Arch_Viz/Intermediate": true,
+		"D:/Github/Unreal-Engine-4-How-to-Develop-Your-First-Two-Games-/Arch_Viz/Saved": true
+	}
+}

@@ -1,0 +1,14 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-ArchVisDemo.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Program Files\Epic Games\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h.obj"
+"D:\Github\Unreal-Engine-4-How-to-Develop-Your-First-Two-Games-\Arch_Viz\Intermediate\Build\Win64\UE4Editor\Development\ArchVisDemo\ArchVisDemo.cpp.obj"
+"D:\Github\Unreal-Engine-4-How-to-Develop-Your-First-Two-Games-\Arch_Viz\Intermediate\Build\Win64\UE4Editor\Development\ArchVisDemo\MyClass.cpp.obj"
+"C:\Program Files\Epic Games\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Development\ArchVisDemo\PCLaunch.rc.res"
+"C:\Program Files\Epic Games\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Development\ModuleVersionResource.rc.inl.res"
+/OUT:"D:\Github\Unreal-Engine-4-How-to-Develop-Your-First-Two-Games-\Arch_Viz\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ArchVisDemo.lib"

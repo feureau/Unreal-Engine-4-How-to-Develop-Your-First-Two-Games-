@@ -1,0 +1,114 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "ArchVisDemo (Debug)",
+			"request": "launch",
+			"preLaunchTask": "ArchVisDemo Win64 Debug Build",
+			"program": "D:\\Github\\Unreal-Engine-4-How-to-Develop-Your-First-Two-Games-\\Arch_Viz\\Binaries\\Win64\\ArchVisDemo-Win64-Debug.exe",
+			"args": [
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.18",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.18\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "ArchVisDemo (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "ArchVisDemo Win64 DebugGame Build",
+			"program": "D:\\Github\\Unreal-Engine-4-How-to-Develop-Your-First-Two-Games-\\Arch_Viz\\Binaries\\Win64\\ArchVisDemo-Win64-DebugGame.exe",
+			"args": [
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.18",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.18\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "ArchVisDemo (Development)",
+			"request": "launch",
+			"preLaunchTask": "ArchVisDemo Win64 Development Build",
+			"program": "D:\\Github\\Unreal-Engine-4-How-to-Develop-Your-First-Two-Games-\\Arch_Viz\\Binaries\\Win64\\ArchVisDemo.exe",
+			"args": [
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.18",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.18\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "ArchVisDemo (Shipping)",
+			"request": "launch",
+			"preLaunchTask": "ArchVisDemo Win64 Shipping Build",
+			"program": "D:\\Github\\Unreal-Engine-4-How-to-Develop-Your-First-Two-Games-\\Arch_Viz\\Binaries\\Win64\\ArchVisDemo-Win64-Shipping.exe",
+			"args": [
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.18",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.18\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "ArchVisDemo (Test)",
+			"request": "launch",
+			"preLaunchTask": "ArchVisDemo Win64 Test Build",
+			"program": "D:\\Github\\Unreal-Engine-4-How-to-Develop-Your-First-Two-Games-\\Arch_Viz\\Binaries\\Win64\\ArchVisDemo-Win64-Test.exe",
+			"args": [
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.18",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.18\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "ArchVisDemoEditor (Debug)",
+			"request": "launch",
+			"preLaunchTask": "ArchVisDemoEditor Win64 Debug Build",
+			"program": "C:\\Program Files\\Epic Games\\UE_4.18\\Engine\\Binaries\\Win64\\UE4Editor-Win64-Debug.exe",
+			"args": [
+				"D:\\Github\\Unreal-Engine-4-How-to-Develop-Your-First-Two-Games-\\Arch_Viz\\ArchVisDemo.uproject",
+				"-debug"
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.18",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.18\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "ArchVisDemoEditor (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "ArchVisDemoEditor Win64 DebugGame Build",
+			"program": "C:\\Program Files\\Epic Games\\UE_4.18\\Engine\\Binaries\\Win64\\UE4Editor.exe",
+			"args": [
+				"D:\\Github\\Unreal-Engine-4-How-to-Develop-Your-First-Two-Games-\\Arch_Viz\\ArchVisDemo.uproject",
+				"-debug"
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.18",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.18\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "ArchVisDemoEditor (Development)",
+			"request": "launch",
+			"preLaunchTask": "ArchVisDemoEditor Win64 Development Build",
+			"program": "C:\\Program Files\\Epic Games\\UE_4.18\\Engine\\Binaries\\Win64\\UE4Editor.exe",
+			"args": [
+				"D:\\Github\\Unreal-Engine-4-How-to-Develop-Your-First-Two-Games-\\Arch_Viz\\ArchVisDemo.uproject"
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.18",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.18\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		}
+	]
+}

@@ -1,0 +1,957 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"taskName": "ArchVisDemo Win32 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ArchVisDemo",
+				"Win32",
+				"Debug",
+				"D:\\Github\\Unreal-Engine-4-How-to-Develop-Your-First-Two-Games-\\Arch_Viz\\ArchVisDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "ArchVisDemo Win32 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ArchVisDemo",
+				"Win32",
+				"Debug",
+				"D:\\Github\\Unreal-Engine-4-How-to-Develop-Your-First-Two-Games-\\Arch_Viz\\ArchVisDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "ArchVisDemo Win32 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ArchVisDemo",
+				"Win32",
+				"DebugGame",
+				"D:\\Github\\Unreal-Engine-4-How-to-Develop-Your-First-Two-Games-\\Arch_Viz\\ArchVisDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "ArchVisDemo Win32 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ArchVisDemo",
+				"Win32",
+				"DebugGame",
+				"D:\\Github\\Unreal-Engine-4-How-to-Develop-Your-First-Two-Games-\\Arch_Viz\\ArchVisDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "ArchVisDemo Win32 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ArchVisDemo",
+				"Win32",
+				"Development",
+				"D:\\Github\\Unreal-Engine-4-How-to-Develop-Your-First-Two-Games-\\Arch_Viz\\ArchVisDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "ArchVisDemo Win32 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ArchVisDemo",
+				"Win32",
+				"Development",
+				"D:\\Github\\Unreal-Engine-4-How-to-Develop-Your-First-Two-Games-\\Arch_Viz\\ArchVisDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "ArchVisDemo Win32 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ArchVisDemo",
+				"Win32",
+				"Shipping",
+				"D:\\Github\\Unreal-Engine-4-How-to-Develop-Your-First-Two-Games-\\Arch_Viz\\ArchVisDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "ArchVisDemo Win32 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ArchVisDemo",
+				"Win32",
+				"Shipping",
+				"D:\\Github\\Unreal-Engine-4-How-to-Develop-Your-First-Two-Games-\\Arch_Viz\\ArchVisDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "ArchVisDemo Win32 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ArchVisDemo",
+				"Win32",
+				"Test",
+				"D:\\Github\\Unreal-Engine-4-How-to-Develop-Your-First-Two-Games-\\Arch_Viz\\ArchVisDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "ArchVisDemo Win32 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ArchVisDemo",
+				"Win32",
+				"Test",
+				"D:\\Github\\Unreal-Engine-4-How-to-Develop-Your-First-Two-Games-\\Arch_Viz\\ArchVisDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "ArchVisDemo Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ArchVisDemo",
+				"Win64",
+				"Debug",
+				"D:\\Github\\Unreal-Engine-4-How-to-Develop-Your-First-Two-Games-\\Arch_Viz\\ArchVisDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "ArchVisDemo Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ArchVisDemo",
+				"Win64",
+				"Debug",
+				"D:\\Github\\Unreal-Engine-4-How-to-Develop-Your-First-Two-Games-\\Arch_Viz\\ArchVisDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "ArchVisDemo Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ArchVisDemo",
+				"Win64",
+				"DebugGame",
+				"D:\\Github\\Unreal-Engine-4-How-to-Develop-Your-First-Two-Games-\\Arch_Viz\\ArchVisDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "ArchVisDemo Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ArchVisDemo",
+				"Win64",
+				"DebugGame",
+				"D:\\Github\\Unreal-Engine-4-How-to-Develop-Your-First-Two-Games-\\Arch_Viz\\ArchVisDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "ArchVisDemo Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ArchVisDemo",
+				"Win64",
+				"Development",
+				"D:\\Github\\Unreal-Engine-4-How-to-Develop-Your-First-Two-Games-\\Arch_Viz\\ArchVisDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "ArchVisDemo Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ArchVisDemo",
+				"Win64",
+				"Development",
+				"D:\\Github\\Unreal-Engine-4-How-to-Develop-Your-First-Two-Games-\\Arch_Viz\\ArchVisDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "ArchVisDemo Win64 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ArchVisDemo",
+				"Win64",
+				"Shipping",
+				"D:\\Github\\Unreal-Engine-4-How-to-Develop-Your-First-Two-Games-\\Arch_Viz\\ArchVisDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "ArchVisDemo Win64 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ArchVisDemo",
+				"Win64",
+				"Shipping",
+				"D:\\Github\\Unreal-Engine-4-How-to-Develop-Your-First-Two-Games-\\Arch_Viz\\ArchVisDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "ArchVisDemo Win64 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ArchVisDemo",
+				"Win64",
+				"Test",
+				"D:\\Github\\Unreal-Engine-4-How-to-Develop-Your-First-Two-Games-\\Arch_Viz\\ArchVisDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "ArchVisDemo Win64 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ArchVisDemo",
+				"Win64",
+				"Test",
+				"D:\\Github\\Unreal-Engine-4-How-to-Develop-Your-First-Two-Games-\\Arch_Viz\\ArchVisDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "ArchVisDemo IOS Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ArchVisDemo",
+				"IOS",
+				"Debug",
+				"D:\\Github\\Unreal-Engine-4-How-to-Develop-Your-First-Two-Games-\\Arch_Viz\\ArchVisDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "ArchVisDemo IOS Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ArchVisDemo",
+				"IOS",
+				"Debug",
+				"D:\\Github\\Unreal-Engine-4-How-to-Develop-Your-First-Two-Games-\\Arch_Viz\\ArchVisDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "ArchVisDemo IOS DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ArchVisDemo",
+				"IOS",
+				"DebugGame",
+				"D:\\Github\\Unreal-Engine-4-How-to-Develop-Your-First-Two-Games-\\Arch_Viz\\ArchVisDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "ArchVisDemo IOS DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ArchVisDemo",
+				"IOS",
+				"DebugGame",
+				"D:\\Github\\Unreal-Engine-4-How-to-Develop-Your-First-Two-Games-\\Arch_Viz\\ArchVisDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "ArchVisDemo IOS Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ArchVisDemo",
+				"IOS",
+				"Development",
+				"D:\\Github\\Unreal-Engine-4-How-to-Develop-Your-First-Two-Games-\\Arch_Viz\\ArchVisDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "ArchVisDemo IOS Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ArchVisDemo",
+				"IOS",
+				"Development",
+				"D:\\Github\\Unreal-Engine-4-How-to-Develop-Your-First-Two-Games-\\Arch_Viz\\ArchVisDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "ArchVisDemo IOS Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ArchVisDemo",
+				"IOS",
+				"Shipping",
+				"D:\\Github\\Unreal-Engine-4-How-to-Develop-Your-First-Two-Games-\\Arch_Viz\\ArchVisDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "ArchVisDemo IOS Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ArchVisDemo",
+				"IOS",
+				"Shipping",
+				"D:\\Github\\Unreal-Engine-4-How-to-Develop-Your-First-Two-Games-\\Arch_Viz\\ArchVisDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "ArchVisDemo IOS Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ArchVisDemo",
+				"IOS",
+				"Test",
+				"D:\\Github\\Unreal-Engine-4-How-to-Develop-Your-First-Two-Games-\\Arch_Viz\\ArchVisDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "ArchVisDemo IOS Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ArchVisDemo",
+				"IOS",
+				"Test",
+				"D:\\Github\\Unreal-Engine-4-How-to-Develop-Your-First-Two-Games-\\Arch_Viz\\ArchVisDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "ArchVisDemo Android Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ArchVisDemo",
+				"Android",
+				"Debug",
+				"D:\\Github\\Unreal-Engine-4-How-to-Develop-Your-First-Two-Games-\\Arch_Viz\\ArchVisDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "ArchVisDemo Android Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ArchVisDemo",
+				"Android",
+				"Debug",
+				"D:\\Github\\Unreal-Engine-4-How-to-Develop-Your-First-Two-Games-\\Arch_Viz\\ArchVisDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "ArchVisDemo Android DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ArchVisDemo",
+				"Android",
+				"DebugGame",
+				"D:\\Github\\Unreal-Engine-4-How-to-Develop-Your-First-Two-Games-\\Arch_Viz\\ArchVisDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "ArchVisDemo Android DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ArchVisDemo",
+				"Android",
+				"DebugGame",
+				"D:\\Github\\Unreal-Engine-4-How-to-Develop-Your-First-Two-Games-\\Arch_Viz\\ArchVisDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "ArchVisDemo Android Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ArchVisDemo",
+				"Android",
+				"Development",
+				"D:\\Github\\Unreal-Engine-4-How-to-Develop-Your-First-Two-Games-\\Arch_Viz\\ArchVisDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "ArchVisDemo Android Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ArchVisDemo",
+				"Android",
+				"Development",
+				"D:\\Github\\Unreal-Engine-4-How-to-Develop-Your-First-Two-Games-\\Arch_Viz\\ArchVisDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "ArchVisDemo Android Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ArchVisDemo",
+				"Android",
+				"Shipping",
+				"D:\\Github\\Unreal-Engine-4-How-to-Develop-Your-First-Two-Games-\\Arch_Viz\\ArchVisDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "ArchVisDemo Android Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ArchVisDemo",
+				"Android",
+				"Shipping",
+				"D:\\Github\\Unreal-Engine-4-How-to-Develop-Your-First-Two-Games-\\Arch_Viz\\ArchVisDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "ArchVisDemo Android Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ArchVisDemo",
+				"Android",
+				"Test",
+				"D:\\Github\\Unreal-Engine-4-How-to-Develop-Your-First-Two-Games-\\Arch_Viz\\ArchVisDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "ArchVisDemo Android Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ArchVisDemo",
+				"Android",
+				"Test",
+				"D:\\Github\\Unreal-Engine-4-How-to-Develop-Your-First-Two-Games-\\Arch_Viz\\ArchVisDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "ArchVisDemo HTML5 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ArchVisDemo",
+				"HTML5",
+				"Debug",
+				"D:\\Github\\Unreal-Engine-4-How-to-Develop-Your-First-Two-Games-\\Arch_Viz\\ArchVisDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "ArchVisDemo HTML5 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ArchVisDemo",
+				"HTML5",
+				"Debug",
+				"D:\\Github\\Unreal-Engine-4-How-to-Develop-Your-First-Two-Games-\\Arch_Viz\\ArchVisDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "ArchVisDemo HTML5 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ArchVisDemo",
+				"HTML5",
+				"DebugGame",
+				"D:\\Github\\Unreal-Engine-4-How-to-Develop-Your-First-Two-Games-\\Arch_Viz\\ArchVisDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "ArchVisDemo HTML5 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ArchVisDemo",
+				"HTML5",
+				"DebugGame",
+				"D:\\Github\\Unreal-Engine-4-How-to-Develop-Your-First-Two-Games-\\Arch_Viz\\ArchVisDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "ArchVisDemo HTML5 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ArchVisDemo",
+				"HTML5",
+				"Development",
+				"D:\\Github\\Unreal-Engine-4-How-to-Develop-Your-First-Two-Games-\\Arch_Viz\\ArchVisDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "ArchVisDemo HTML5 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ArchVisDemo",
+				"HTML5",
+				"Development",
+				"D:\\Github\\Unreal-Engine-4-How-to-Develop-Your-First-Two-Games-\\Arch_Viz\\ArchVisDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "ArchVisDemo HTML5 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ArchVisDemo",
+				"HTML5",
+				"Shipping",
+				"D:\\Github\\Unreal-Engine-4-How-to-Develop-Your-First-Two-Games-\\Arch_Viz\\ArchVisDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "ArchVisDemo HTML5 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ArchVisDemo",
+				"HTML5",
+				"Shipping",
+				"D:\\Github\\Unreal-Engine-4-How-to-Develop-Your-First-Two-Games-\\Arch_Viz\\ArchVisDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "ArchVisDemo HTML5 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ArchVisDemo",
+				"HTML5",
+				"Test",
+				"D:\\Github\\Unreal-Engine-4-How-to-Develop-Your-First-Two-Games-\\Arch_Viz\\ArchVisDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "ArchVisDemo HTML5 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ArchVisDemo",
+				"HTML5",
+				"Test",
+				"D:\\Github\\Unreal-Engine-4-How-to-Develop-Your-First-Two-Games-\\Arch_Viz\\ArchVisDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "ArchVisDemoEditor Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ArchVisDemoEditor",
+				"Win64",
+				"Debug",
+				"D:\\Github\\Unreal-Engine-4-How-to-Develop-Your-First-Two-Games-\\Arch_Viz\\ArchVisDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "ArchVisDemoEditor Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ArchVisDemoEditor",
+				"Win64",
+				"Debug",
+				"D:\\Github\\Unreal-Engine-4-How-to-Develop-Your-First-Two-Games-\\Arch_Viz\\ArchVisDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "ArchVisDemoEditor Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ArchVisDemoEditor",
+				"Win64",
+				"DebugGame",
+				"D:\\Github\\Unreal-Engine-4-How-to-Develop-Your-First-Two-Games-\\Arch_Viz\\ArchVisDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "ArchVisDemoEditor Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ArchVisDemoEditor",
+				"Win64",
+				"DebugGame",
+				"D:\\Github\\Unreal-Engine-4-How-to-Develop-Your-First-Two-Games-\\Arch_Viz\\ArchVisDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "ArchVisDemoEditor Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ArchVisDemoEditor",
+				"Win64",
+				"Development",
+				"D:\\Github\\Unreal-Engine-4-How-to-Develop-Your-First-Two-Games-\\Arch_Viz\\ArchVisDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "ArchVisDemoEditor Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ArchVisDemoEditor",
+				"Win64",
+				"Development",
+				"D:\\Github\\Unreal-Engine-4-How-to-Develop-Your-First-Two-Games-\\Arch_Viz\\ArchVisDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.18"
+			}
+		}
+	]
+}
